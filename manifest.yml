@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: Speech to Text-YiboWang
+  host: Speech-to-Text-YiboWang
+  disk_quota: 1024M
+  services:
+  - Speech to Text-ko
